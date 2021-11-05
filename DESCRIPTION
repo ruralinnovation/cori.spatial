@@ -1,0 +1,17 @@
+Package: cori.spatial
+Type: Package
+Title: Functions for spatial analysis in R
+Version: 0.1.0
+Author: Matthew Rogers
+Maintainer: Matthew Rogers <matt.rogers@ruralinnovation.us>
+Description: Spatial analysis functions to solve common CORI/RISI needs.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  sf,
+  osrm,
+  dplyr,
+  rlang,
+  tigris
+RoxygenNote: 7.1.1
